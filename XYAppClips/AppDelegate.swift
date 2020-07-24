@@ -1,13 +1,12 @@
 //
 //  AppDelegate.swift
-//  XYSwiftUIApp
+//  XYAppClips
 //
 //  Created by 乐逍遥 on 2020/7/24.
 //
 
 import UIKit
 
-@available(iOS 13.0, *)
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

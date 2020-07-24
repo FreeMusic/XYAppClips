@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  XYSwiftUIApp
+//  XYAppClips
 //
 //  Created by 乐逍遥 on 2020/7/24.
 //
@@ -8,7 +8,6 @@
 import UIKit
 import SwiftUI
 
-@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -21,7 +20,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView()
-        
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
